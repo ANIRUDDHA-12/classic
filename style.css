@@ -1,0 +1,357 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.uppermost{
+    width: 100%;
+    height: 6.5vh;
+    background-color:#323232;
+    margin-top: 0%;
+    color: whitesmoke;
+    
+}
+.uppermost>ul{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px;
+    padding-top: 14px;
+}
+.uppermost>ul>li{
+    list-style: none;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.upper{
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    margin-left:5%;
+}
+.most{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin-right: 14.5%;
+
+}
+.home{
+    width: 100vw;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+
+}
+.classic{
+    margin-left: 13.5%;
+}
+.about{
+    width: 60vw;
+    
+}
+
+.about>ul{
+    display: flex;
+    /* gap: 58px; */
+    margin:5vh 4vw;
+    justify-content: space-around;
+}
+.about>ul>li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.about>ul>li>a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+.about>ul>li:hover{
+    color:firebrick;
+}
+.brand{
+    width: 100%;
+    height:90vh;
+    background-image: url(https://dealeradmin.gaadi.com/user/server/php/origin-assets/showroom_image/original/Classic_1669795001112542795.png);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* text-align: center; */
+    /* position:absolute; */
+    /* background-size: 300% 100%;
+    animation: revealBackground 4s ease-in-out infinite; */
+    
+}
+.text{
+    position: absolute;
+    top: 40%;
+    padding:10px 20px ;
+    margin: 0px;
+  
+}
+.text>p{
+    color: white;
+    margin: 0vh 7vw;
+    /* justify-content:center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    animation-name: slideFromLeft !important;
+    animation-duration: 4s !important;
+    translate: translateX(-100%);
+
+    
+}
+ .sell{
+    font-size:20px!important;
+    color: white;
+    font-weight: 400;
+
+}
+.click{
+    color: white;
+    height:5vh;
+    width:8vw;
+    background-color:black;
+    padding: 8px 8px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left:10vw;
+    margin-top: 45vh;
+    justify-content: left;
+    translate: translateY(20%);
+    animation-duration: 3.5s;
+    animation-name: slideFromDown;
+    
+    
+}
+.click:hover{
+    color: white;
+    background-color: red;
+
+}
+.price{
+    height: 80vh;
+    width: 100vw;
+    padding-top: 36vh;
+}
+.select{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 40vh;
+    width: 75%;
+    margin: auto;
+    position:absolute;
+    left: 12%;
+    /* bottom: 0%; */
+    top: 100%;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+.car{
+    display: block;
+
+}
+#cars{
+    width: 12vw;
+    height: 40px;
+    border-radius: 1px;
+}
+.invent{
+    font-size:medium;
+    height:6vh;
+    width: 14vw;
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+
+
+
+}
+#priceRange {
+    width: 80%;
+    margin: 20px auto;
+}
+#selectedRange {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#displayButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(215, 59, 59);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.buy{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75vw;
+    margin: 0px auto;
+    /* margin-top: 5% !important; */
+
+}
+.buys>i{
+    margin-left:2vw;
+    margin-top: 2vh;
+}
+.buys>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: left;
+    margin-left: 3.5%;
+}
+.buys>.our{
+    color: darkgray;
+}
+.buys>img{
+    height: 22vh;
+    width: 23vw;
+
+}
+.feature{
+    width: 100%;
+    height: 85vh;
+    background-color: rgb(233, 233, 233);
+}
+.feat-cars{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 75vw;
+    margin: 0px auto;
+}
+.feat-cars>img{
+    height: 22vh;
+    width: 23vw;
+
+}
+.card{
+    width:15vw;
+    background-color: white;
+    height: 38vh;
+
+}
+.card>img{
+    height: 20vh;
+    width: 15vw;
+}
+.card>i{
+    padding: 9px;
+}
+.features{
+    width: 100%;
+    height:40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:50px auto;
+}
+.one{
+    width:80%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: auto 15%;
+    padding-top:32px ;
+    gap: 10px;
+}
+.one>section>img{
+    margin-left:20%;
+    margin-top:5% ;
+}
+.multi{
+    max-width:30%;
+}
+.brands{
+    max-width:29%;
+}
+.services{
+    width: 80%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: auto;
+}
+#car-image{
+    grid-row: span 3;
+}
+.test{
+    width: 80%;
+    height: 80vh;
+    margin: 6% auto;
+}
+#pretty{
+    display: flex;
+    gap: 15px;
+}
+.box{
+    margin-top: 5%;
+}
+#item0,#item1,#item2{
+    display: flex !important;
+}
+.item>img{
+    width: 30% !important;
+    height: 25vh !important;
+    box-sizing: border-box !important;
+}
+
+
+
+
+@keyframes example{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+  
+}
+@keyframes slideFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideFromDown {
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
