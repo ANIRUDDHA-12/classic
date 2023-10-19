@@ -312,6 +312,56 @@ body{
     height: 25vh !important;
     box-sizing: border-box !important;
 }
+footer{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(0,0,0,0.09);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/16/Bugatti_Divo%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0029%29.jpg);
+
+}
+.news{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0,0.8);
+    margin: auto;
+}
+#newsletter{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vh;
+    width: 80%;
+    margin: auto;
+}
+#newsletter>span>button{
+    height: 5vh;
+    width: 8vw;
+    background-color: red;
+    color: white;
+    border: 1px;
+    border-radius:3px ;
+    margin-top: 2vh;
+}
+#newsletter>span>input{
+    height: 5vh;
+    width: 25vw;
+    margin-top: 2vh;
+}
+#newsletter2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left:12%;
+    width: 80%;
+
+    margin-top:12%;
+}
+ul{
+    list-style: none;
+}
+
 
 
 
